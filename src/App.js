@@ -152,7 +152,7 @@ function App() {
       <table>
         <tbody>
           <tr>
-            {/* TODO: delete secret */}
+            {}
             <th>{}</th>
             <th>Guess</th>
             <th>Result</th>
