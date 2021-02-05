@@ -50,9 +50,13 @@ table, tr, th {
   margin-top: 20px;
   border-collapse: collapse;
   border-bottom: 2px solid rgba(32,32,32,255);
-  font-size: 30px;
+  font-size: 25px;
   font-family: Arial;
   padding: 15px;
+}
+
+.resultCol {
+  width: 50%;
 }
 
 #endGameText {
