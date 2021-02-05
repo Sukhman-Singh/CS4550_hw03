@@ -154,47 +154,47 @@ function App() {
           <tr>
             <th></th>
             <th>Guess</th>
-            <th>Result</th>
+            <th class="resultCol">Result</th>
           </tr>
           <tr>
             <th>1</th>
             <th>{guesses[0]}</th>
-            <th>{resultString(secret, 1)}</th>
+            <th class="resultCol">{resultString(secret, 1)}</th>
           </tr>
           <tr>
             <th>2</th>
             <th>{guesses[1]}</th>
-            <th>{resultString(secret, 2)}</th>
+            <th class="resultCol">{resultString(secret, 2)}</th>
           </tr>
           <tr>
             <th>3</th>
             <th>{guesses[2]}</th>
-            <th>{resultString(secret, 3)}</th>
+            <th class="resultCol">{resultString(secret, 3)}</th>
           </tr>
           <tr>
             <th>4</th>
             <th>{guesses[3]}</th>
-            <th>{resultString(secret, 4)}</th>
+            <th class="resultCol">{resultString(secret, 4)}</th>
           </tr>
           <tr>
             <th>5</th>
             <th>{guesses[4]}</th>
-            <th>{resultString(secret, 5)}</th>
+            <th class="resultCol">{resultString(secret, 5)}</th>
           </tr>
           <tr>
             <th>6</th>
             <th>{guesses[5]}</th>
-            <th>{resultString(secret, 6)}</th>
+            <th class="resultCol">{resultString(secret, 6)}</th>
           </tr>
           <tr>
             <th>7</th>
             <th>{guesses[6]}</th>
-            <th>{resultString(secret, 7)}</th>
+            <th class="resultCol">{resultString(secret, 7)}</th>
           </tr>
           <tr>
             <th>8</th>
             <th>{guesses[7]}</th>
-            <th>{resultString(secret, 8)}</th>
+            <th class="resultCol">{resultString(secret, 8)}</th>
           </tr>
         </tbody>
       </table>
