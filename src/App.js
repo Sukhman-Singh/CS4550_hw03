@@ -152,8 +152,7 @@ function App() {
       <table>
         <tbody>
           <tr>
-            {}
-            <th>{}</th>
+            <th></th>
             <th>Guess</th>
             <th>Result</th>
           </tr>
